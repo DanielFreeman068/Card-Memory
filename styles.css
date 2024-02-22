@@ -1,0 +1,35 @@
+body{
+    background: url("./background.avif");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+div{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap:15px;
+    width:225px;
+    cursor:grab;
+    justify-content: center;
+    margin:auto;
+}
+
+button{
+    width:100px;
+    height:150px;
+    font-size:65px;
+    cursor:grab;
+    border: 5px solid;
+    justify-content: center;
+    background-color: transparent;
+    transition: transform 0.3s ease-in-out;
+    background-image:url("./buttonBackground.jpg")
+}
+
+button:active{
+    cursor:grabbing;
+}
+
+button:hover{
+    transform: scale(1.25);
+}
