@@ -44,7 +44,7 @@ The game automatically adjusts:
 
 ## 📸 Preview
 
-> _You can add a screenshot or GIF here showing the game in action._
+![Card Memory Game Screenshot](cardMemory.png)  
 
 ---
 
