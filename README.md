@@ -1,19 +1,59 @@
-Memory Card Game
-This is a simple memory card game implemented in HTML, CSS, and JavaScript. The game involves flipping pairs of cards to find matching symbols.
+# 🃏 Memory Card Matching Game
 
-How to Play
-Click on a card to flip it.
-Click on another card to try and find a matching symbol.
-If the symbols match, the cards stay flipped.
-If the symbols do not match, the cards flip back over.
-The game ends when all pairs have been matched.
-Features
-Card shuffling: The symbols on the cards are shuffled each time a new game starts.
-Move tracking: The game keeps track of the number of moves made by the player.
-Timer: A timer starts when the first card is flipped and stops when all pairs are matched, recording the time taken to complete the game.
-Reset button: The game can be reset at any time by clicking the reset button.
-Responsive design: The game is designed to be playable on desktop and mobile devices.
-Technologies Used
-HTML
-CSS
-JavaScript
+This is a simple memory card matching game built with **HTML**, **CSS**, and **JavaScript**. Players flip two cards at a time to find matching emoji pairs, with a move counter and timer to track performance.
+
+---
+
+## 🚀 Features
+
+- ✅ Flip cards to reveal hidden emojis
+- ✅ Match all emoji pairs to win
+- ✅ Move counter and game timer
+- ✅ Fully responsive layout (desktop, tablet, mobile)
+- ✅ Reset button to restart the game anytime
+- ✅ Visual flip animation with smooth transitions
+
+---
+
+## 🛠 How to Run
+
+1. **Clone** or **download** this repository.
+2. Make sure all files are in the same directory.
+3. Open `index.html` in your browser.
+
+No dependencies or servers required!
+
+---
+
+## ✨ Customization
+
+- 🎨 You can change the card front image by replacing `cardbg.png`.
+- 🖼️ The background image can be updated by replacing the svg inside the body element.
+- 🧠 You can customize the emoji symbols in the JavaScript array to match your theme.
+
+---
+
+## 📱 Responsive Design
+
+The game automatically adjusts:
+- Smaller cards for tablets and phones
+- Scaled-down text and buttons for usability
+- Layout and spacing optimized for touch input
+
+---
+
+## 📸 Preview
+
+> _You can add a screenshot or GIF here showing the game in action._
+
+---
+
+## 📄 License
+
+This project is free to use and modify — no attribution required.
+
+---
+
+## 🙌 Acknowledgments
+
+Created with ❤️ and a love for card games.
